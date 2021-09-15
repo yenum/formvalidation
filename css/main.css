@@ -1,5 +1,60 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+    background-color:#574F9E;
+    font-size: 16px;
 }
 
+.signup{
+     margin-top: 8rem;
+     margin-left: 6rem;
+}
+
+.signup h1{
+    font-family: 'Abril Fatface', Cursive;
+    font-size: 2.5em;
+    color: #BAB3FF;
+    text-transform: uppercase;
+}
+
+.signup p {
+    font-family:'Poppins', Sans-Serif;
+    font-size: 1em;
+    color: #EBDD8D;
+
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+input{
+    width: 100%;
+    padding: 0.6rem 0.7rem;
+    box-sizing: border-box;
+    margin: 0.6rem 0;
+    border: 2px solid #EBDD8D;
+    border-radius: 4px;
+    background-color: #EBDD8D;
+  }
+
+  #submit {
+      margin-top: 2rem;    
+  }
+
+  label{
+      padding-top: 0.5rem;
+      font-family:'Poppins', Sans-Serif;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #EBDD8D;
+  }
+
+  #subbutton {
+    background-color: #9E903F;
+    border: 2px solid #9E903F;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #EBDD8D;
+    font-family:  'Poppins', Sans-Serif;;
+  }
+
+   
