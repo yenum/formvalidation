@@ -1,29 +1,36 @@
 * {
-    background-color:#574F9E;
     font-size: 16px;
 }
 
-.signup{
-     margin-top: 8rem;
-     margin-left: 6rem;
+.container {
+    display: flex;
+    background-color:#574F9E;
+    margin-top: 3rem;
+
 }
 
-.signup h1{
+.box-one {
+    flex: 2;
+    padding: 3rem
+}
+
+.box-two {
+    flex : 3;
+    padding: 3rem;
+}
+
+
+.box-one h1 {
     font-family: 'Abril Fatface', Cursive;
     font-size: 2.5em;
     color: #BAB3FF;
     text-transform: uppercase;
 }
 
-.signup p {
+p {
     font-family:'Poppins', Sans-Serif;
     font-size: 1em;
     color: #EBDD8D;
-
-}
-
-.container {
-    margin-top: 3rem;
 }
 
 input{
@@ -54,7 +61,7 @@ input{
     text-transform: uppercase;
     font-size: 1.5em;
     color: #EBDD8D;
-    font-family:  'Poppins', Sans-Serif;;
+    font-family:'Poppins', Sans-Serif;;
   }
 
    
